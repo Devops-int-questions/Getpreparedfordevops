@@ -1,0 +1,111 @@
+### Compute (EC2, Lambda, Auto Scaling, ECS, EKS, Fargate)
+--------------------------------------------------------------------------------------------
+1. What is the difference between vertical and horizontal scaling?
+2. What is the dynamic auto scaling?
+3. What is Auto Scaling Group (ASG) in AWS?
+4. If an ASG scales up to 10 instances and scales down to 5, but I want to keep a critical instance running without termination, how can I configure that?
+5. Define EKS, ECS, and Fargate.
+6. What is the difference between EKS vs ECS vs Fargate?
+7. How do you configure AWS RDS, and what factors do you consider (size, requirements, etc.)?
+8. How do you monitor applications, services, logs, and key metrics in an organization?
+9. Explain the Observability tools in AWS.
+10. What is an ECS Task Definition?
+11. How to deploy an app using AWS ECS?
+12. Why do you prefer to start with EKS instead of ECS?
+13. What are the capabilities of EKS that make it a better choice over ECS for this project?
+14. How would you configure the Elastic Load Balancer to work against the EKS cluster?
+15. How to upgrade EKS cluster explain step by step!
+16. I have created an EC2 instance named A, and I want to create another instance B. It should create an instance without deleting instance A. What can I do during this?
+17. An Ubuntu server on AWS has run out of disk space, how would you handle this situation?
+18. How do you handle disk, CPU alerts?
+
+
+### Storage (S3, EBS, EFS, Glacier)
+--------------------------------------------------------------------------------------------
+19. Difference between S3 and EBS.
+20. Difference between EBS and EFS.
+21. How to move S3 data older than 30 days to Glacier storage to reduce costs?
+22. Which AWS service is primarily used for object storage?
+23. How to map an S3 bucket to a service?
+24. How to hide EFS storage?
+25. What is the purpose of creating S3 bucket policies?
+26. How do you maintain the lifecycle of an S3 bucket?
+27. What are the different types of Volumes in AWS and its uses?
+28. Explain S3, when to use it? Types and use cases!
+
+
+### Networking (VPC, Security Groups, NACL, Route 53, Load Balancers)
+--------------------------------------------------------------------------------------------
+29. What is the difference between Security groups and NACL in AWS?
+30. How many public subnets and private subnets are you going to use in the VPC?
+31. In which subnets are you going to locate the ECS cluster and the RDS instances?
+32. What is Route 53, and how does it work?
+33. If my Route 53 DNS receives traffic from multiple countries, can I redirect traffic based on the country?
+34. What is the difference between NSG and Firewall?
+35. How does the GSLB load balancer work?
+36. How do VPC peering and transit gateway differ, and in what scenarios would you choose one over the other?
+37. What is VPC peering?
+38. Where do you use firewalls, SGs, and NACLs?
+39. How many NAT Gateways are needed for two public & two private subnets in a single VPC? Min & max?
+40. How does weighted routing work in LB?
+41. How does SSL work (Certbot, Let's Encrypt, AWS)? Explain the flow.
+
+
+### Database (RDS, DynamoDB)
+--------------------------------------------------------------------------------------------
+42. How do you configure AWS RDS, and what factors do you consider (size, requirements, etc.)?
+43. Explain about DB Automation and Administration in AWS!
+44. How much data is stored in your RDS MySQL?
+
+
+### Security & IAM
+--------------------------------------------------------------------------------------------
+45. How do you implement best security policies on AWS?
+46. Have you worked on the AWS, right? So how many types of policy, IAM policy are there?
+47. Difference between IAM Users and Roles!
+48. How do you scan the vulnerabilities specially for AWS instances?
+49. What are the best password security practices used by your organization?
+50. Suppose in your DevOps team, new team members are added to your team. How can you provide AWS access to your new users, what is the behavior of login to the console?
+
+
+### Other AWS Services
+--------------------------------------------------------------------------------------------
+51. Explain about NACLs, Security-Groups, NAT Gateway.
+52. Explain about IAM, Fargate, EC2, and Lambda.
+53. Write a simple Lambda file.
+54. Write a simple IAM policy.
+55. Inline vs Custom!
+56. Define Static Website hosting in AWS (also in Azure).
+57. What are the services you have used in AWS?
+58. How do you ensure the best possible security for high availability architectures for 3-tier applications?
+59. Two AWS accounts are there in the same organization. Account A has an EC2 instance, and Account B has some tokens. How can you access the tokens from the EC2 instance?
+60. Types of Load Balancer in AWS and its uses, explain in detail!
+
+
+### Others
+--------------------------------------------------------------------------------------------
+61. Can you explain your experience with AWS services?
+62. How did you plan cost optimization in AWS?
+63. How do you connect to private instances when the SSH connection is not working?
+64. How do you connect from AWS to on-prem servers?
+65. How comfortable are you with AWS, and how much do you rate yourself out of 5?
+66.  Explain the following topics in AWS: 
+	a) Lambda, 
+	b) CFT, 
+	c) Data Storage, 
+	d) S3 
+67. So what is the difference between the S3 bucket policies and ACLs in AWS?
+68. Explain how you did your cloud migration?
+69. What are the different types of AWS services used for various use cases?
+70. If there are multiple EC2 instances (5-10), and I need to share files across all, which AWS service should I use?
+71. If I’m using EFS, but it consumes more than 10 TB and increases costs, how can I reduce the cost without impacting the data?
+72. What are the security parameters we must consider while creating an EC2 instance for production?
+73. How can you protect the data in an AWS instance?
+74. What is the difference between an EBS-backed instance and a non-EBS-backed instance?
+75. Can you avoid specific port traffic using Security Groups?
+76. What is Connection Drain?
+77. How to log in to a VM if it has only a private IP?
+78. Explain about RBAC.
+79. In CloudWatch, what is the use of log groups and log trails?
+80. Explain about NACLs in AWS Security.
+
